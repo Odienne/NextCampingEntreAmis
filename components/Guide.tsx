@@ -13,7 +13,7 @@ export default function Guide() {
                 </p>
                 <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
                     <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Votre guide pour un chemin facile</h2>
-                    <p className="regular-16 text-gray-30 xl:max-w-[520px">
+                    <p className="regular-16 text-gray-30 xl:max-w-[520px]">
                         Avec notre application Hilink, vous n'allez plus jamais vous perdre. Nous prenons en charge les
                         cartes hors-ligne pour s'assurer que même sans connexion internet, nous pourrons vous aider.
                         Invitez vos amis et vos proches pour vous amuser dans la nature sauvage.

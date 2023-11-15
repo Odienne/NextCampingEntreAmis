@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    {href: '/', key: 'home', label: 'Accueil'},
+    {href: '/', key: 'how_hilink_work', label: 'Notre fonctionnement'},
+    {href: '/', key: 'services', label: 'Services'},
+    {href: '/', key: 'pricing ', label: 'Tarifs '},
+    {href: '/', key: 'contact_us', label: 'Contact'},
 ];
 
 // CAMP SECTION
@@ -18,64 +18,64 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
     {
-        title: 'Real maps can be offline',
+        title: 'Des cartes même hors-ligne',
         icon: '/map.svg',
         variant: 'green',
         description:
-            'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+            "Nous fournissons une solution pour vous permettre d'utiliser notre application même hors-ligne. Oui, des cartes hors-ligne que vous pouvez consulter à tout moment et n'importe où",
     },
     {
-        title: 'Set an adventure schedule',
+        title: 'Planifier votre aventure',
         icon: '/calendar.svg',
         variant: 'green',
         description:
-            "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+            "Panifier vos aventures avec des amis. Pendant les vacances, nous proposons beaucoup d'offres intéressantes. Comme ça, il n'y a plus de débats",
     },
     {
-        title: 'Technology using augment reality',
+        title: 'Une techonologie de réalité augmentée',
         icon: '/tech.svg',
         variant: 'green',
         description:
-            'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+            "Nous utilisons la réalité augmentée comme guide dans vos parcours de randonnée en forêt ou en montagne. Déjà pris en charge par les dernières techologies sans connexion internet",
     },
     {
-        title: 'Many new locations every month',
+        title: 'De nouveaux lieux ajoutés tous les mois',
         icon: '/location.svg',
         variant: 'orange',
         description:
-            'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+            "Grace à notre communauté dans le monde entier, vous avez accès aux meilleures expériences partagées des autres passionnés. Découvrez de nouveaux horizons et défis chaque mois",
     },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
     {
-        title: 'Learn More',
+        title: 'Pour en savoir plus',
         links: [
-            'About Hilink',
-            'Press Releases',
-            'Environment',
-            'Jobs',
-            'Privacy Policy',
-            'Contact Us',
+            'A propos',
+            'Dans la presse',
+            'Environnement',
+            "Offres d'emplois",
+            'Politique de confidentialité',
+            'Contact',
         ],
     },
     {
-        title: 'Our Community',
+        title: 'Notre communauté',
         links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
     },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-    title: 'Contact Us',
+    title: 'Contactez-nous',
     links: [
-        { label: 'Admin Officer', value: '123-456-7890' },
-        { label: 'Email Officer', value: 'hilink@akinthil.com' },
+        {label: 'Administrateur', value: '123-456-7890'},
+        {label: 'Email de contact', value: 'hilink@akinthil.com'},
     ],
 };
 
 export const SOCIALS = {
-    title: 'Social',
+    title: 'Réseaux sociaux',
     links: [
         '/facebook.svg',
         '/instagram.svg',
